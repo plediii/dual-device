@@ -1,0 +1,30 @@
+{
+  "name": "dual-device",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint *.js test",
+    "test": "node test",
+    "coverage": "istanbul cover test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/plediii/dual-device.git"
+  },
+  "author": "Paul J. Ledbetter III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plediii/dual-device/issues"
+  },
+  "homepage": "https://github.com/plediii/dual-device#readme",
+  "pre-commit": [
+    "lint"
+  ],
+  "description": "Device motion events for dualapi",
+  "devDependencies": {
+    "istanbul": "^0.4.1",
+    "jshint": "^2.8.0",
+    "pre-commit": "^1.1.2",
+    "tape": "^4.2.2"
+  }
+}
