@@ -1,0 +1,1 @@
+# dual-device [![Build Status](https://travis-ci.org/plediii/dual-device.svg)](https://travis-ci.org/plediii/dual-device)
